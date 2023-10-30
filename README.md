@@ -1,42 +1,16 @@
-### This is a solution to the [Frontend Mentor](https://www.frontendmentor.io/home). challenge:
+# Advice Generator
 
-# Advice generator app
+Vamos a implementar este reto de Front End Mentor.
+Cada vez que hacemos clic en el dado, obtenemos un _consejo_ de forma aleatoria
 
-**Welcome! 👋 Here's a quick look:**
+[Demo](https://neenreva.github.io/advice-generator-app-main/)
 
-![My solution](./design/FrontendMentorAdvicegeneratorapp.png)
+## Web sobre la API
 
-[Live Link](https://neenreva.github.io/advice-generator-app-main/) // [Solution Home](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub/advice-generator-app-SvJ-sLufL)
+Vamos a obtener los _consejos_ de una API que se encuentra en [esta Web](https://api.adviceslip.com/)
 
-### The challenge
+## Qué tenemos que hacer
 
-Your challenge is to build out this advice generator app using the [Advice Slip API](https://api.adviceslip.com) and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Generate a new piece of advice by clicking the dice icon
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-
-### What I learned
-
-APIs. First go at using one. I quickly came across the fetch() method and ran with it. 
-
-### Continued development
-
-Will continue to work on more complicated API data integration. Noticed that firefox might not fetch more than once and I'll need to figure that out.
-
-### Useful resources
-
-- [Advice Slip API](https://api.adviceslip.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-
-### As always feedback is welcome! Thanks for checking this out.
+1. Al hacer clic en el dado, se debe hacer una petición GET mediante la funcion _fetch_ a la URL adecuada
+2. Obtenemos un consejo nuevo
+3. Tenemos que actualizar el #ID del consejo y el texto del consejo, en el nodo DOM adecuado.
