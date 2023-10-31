@@ -14,3 +14,7 @@ Vamos a obtener los _consejos_ de una API que se encuentra en [esta Web](https:/
 1. Al hacer clic en el dado, se debe hacer una petición GET mediante la funcion _fetch_ a la URL adecuada
 2. Obtenemos un consejo nuevo
 3. Tenemos que actualizar el #ID del consejo y el texto del consejo, en el nodo DOM adecuado.
+
+## Preguntas de auto evaluación
+
+1. Describe con exactitud el tipo de datos que podemos obtener de la respuesta de la API (es un array? es un objeto? que propiedades tiene? etc)
